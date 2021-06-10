@@ -5,11 +5,11 @@ const secondsE1 = document.getElementById('seconds');
 
 
 
-const bday_date=prompt('Enter you birth-day in 1 Jan 2021 format');
+const bdaydate=prompt('Enter you birth-day in 1 Jan 2021 format');
 
 
 function count_Timer(){
-    const birthday_date = new Date(bday_date);
+    const birthday_date = new Date(bdaydate);
     const current_date = new Date();
 
     const Total_seconds = (birthday_date-current_date) / 1000;
