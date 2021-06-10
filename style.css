@@ -15,9 +15,9 @@ body{
     min-height: 100vh;
     background-position: center center;
     margin: 0;
-    width:90%; 
-    height: auto;
-    margin: auto;
+    width:100%;
+    min-width:1000px;
+    height:auto;
 }
 h1{
     border:darkkhaki;
@@ -40,14 +40,17 @@ h1{
     border-style: outset;
     border-width: 10px;
     background-color: gold;
-   
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
 }
 
 .bigText{
     font-weight: bold;
     font-size: 4rem;
     line-height: 1;
-    
+    border: gold;
+    border-width: 2px;
     margin: 0 2rem;
    
 }
