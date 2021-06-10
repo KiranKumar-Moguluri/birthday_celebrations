@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Poppins:ital,wght@0,600;1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("./night.jpg");
+    font-family: 'Italianno', 'Poppins',sans-serif;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+    min-height: 100vh;
+    background-position: center center;
+    margin: 0;
+}
+h1{
+    border:darkkhaki;
+    color: gold;
+    border-radius: 5px;
+    border-width: 5px;
+    font-weight: normal;
+    border-style: outset;
+    font-style:italic;
+    font-size: 4rem;
+    margin-top: -10rem;
+    font-size: 12vh;
+    background-color: black;
+    
+}
+
+.countdown_container{
+    display: flex;
+    border: black;
+    border-style: outset;
+    border-width: 10px;
+    background-color: gold;
+   
+}
+
+.bigText{
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1;
+    
+    margin: 0 2rem;
+   
+}
+
+.CTimer-1{
+    text-align: center;
+}
+
+.CTimer-1 span{
+    font-size: 2rem;
+
+}
+
+.rocket {
+    background-image: url('./star.png');
+    background-size: contain;
+    width: 12px;
+    height: 12px;
+    position: fixed;
+  }
+  
+  .particle {
+    background-color: red;
+    width: 2px;
+    height: 2px;
+    position: fixed;
+  }
