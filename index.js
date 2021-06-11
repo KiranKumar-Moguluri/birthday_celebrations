@@ -39,7 +39,7 @@ else if(days==-1){
     name.innerHTML="It is  your birthday ..."+addname+" today";
 }
 else if(days<-1 ){
-    name.innerHTML="Your birthday had been finished ..."+addname+ " this year..";
+    name.innerHTML="Your birthday had been finished ..."+addname+ ". To find your bday this year... please add revelant date and present year";
 }
 else{
     name.innerHTML="Advance Happy Birthday..."+addname;
